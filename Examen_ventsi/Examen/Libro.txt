@@ -30,4 +30,11 @@ public void setAutor(String autor)
 pulic String toString()
 {
 	return "Libro [titulo-=" + tìtulo + "autor-" + autor + "ISBN-" + ISBN + ", presado-" + prestado "]"
+public Libro (String título, String autor, String ISBN, Boolean prestado)
+{
+	super();
+	this.titulo = titulo;
+	this.author = autor;
+	ISBN = iSBN;
+	this.prestado = prestado;
 }
